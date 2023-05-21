@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 88%;
+    margin: auto;
+}
+
+body{
+    height: 2172781271px;
+}
+
+
+header{
+    width: 100%;
+    /* background-color: blue; */
+    position: fixed;
+    /* background-color: black; */
+}
+
+.header-top{
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header-top a{
+    color: #fff;
+}
+.header-top nav ul{
+    display: flex;
+}
+
+.header-top nav ul li{
+    margin-left: 15px;
+}
+
+.login-register ul{
+    display: flex;
+}
+
+.login-register ul li{
+    margin-right: 15px;
+}
+.nav-top li a:hover{
+    color: blue;
+} 
+
+
+/* HEADERBOTTOM */
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.header-bottom img{
+    width: 262px;
+}
+
+.header-bottom nav ul{
+    display: flex;
+}
+
+.header-bottom nav ul li{
+    margin-right: 15px;
+}
+
+.nav-bottom li a{
+    color: #fff;
+}
+.nav-bottom li a:hover{
+    color: blue;
+}
+
+.bg-image{
+    height: 100vh;
+    background-image: url(../image/bck_img4.3e26f106.jpeg);
+}
+
+#search{
+    color: blue;
+}
+
